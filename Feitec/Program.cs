@@ -236,7 +236,7 @@ namespace Feitec
             {
                 string telefone;
                 Regex regexTelefone = new Regex(@"^\(?\d{2}\)?\s?\d{4,5}-?\d{4}$");
-
+                //teste
                 do
                 {
                     Console.Write("(formato: (99)99999-9999): ");
